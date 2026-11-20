@@ -1,0 +1,30 @@
+
+# Terraform providers
+.terraform/
+
+# Terraform state
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+
+# Terraform variables
+*.tfvars
+*.tfvars.json
+!*.tfvars.example
+
+# Terraform plans
+*.tfplan
+*.plan
+
+# Credentials and secrets
+.env
+.env.*
+.aws/
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local Terraform configuration
+.terraformrc
+terraform.rc
